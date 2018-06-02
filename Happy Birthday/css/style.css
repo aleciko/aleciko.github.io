@@ -1,0 +1,68 @@
+/*Fonts used: Tw Cen MT, Corbel, Baskerville Old Face*/
+
+html, body {
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url("../images/background.png"); /*Source: subtlepatterns.com*/
+}
+
+.banner {
+	display: block;
+	margin: 0px auto;
+}
+
+
+
+.boxContainer {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-content: center;
+	margin: 0px auto;
+	height: 600px;
+	width: 1000px;
+}
+
+.box1 {
+	object-fit: cover;
+	width: 340px;
+	height: 550px;
+	margin: 10px 10px 0px 0px;
+}
+
+.box2, .box3{
+	object-fit: cover;
+	width: 340px;
+	height: 270px;
+	margin: 10px 10px 0px 10px;
+}
+
+.box4 {
+	margin: 10px auto 4px auto;
+	width: 320px;
+	height: 513px;
+	background-color: #edd8ff;
+	padding: 20px;
+}
+
+h1 {
+	font-family: "Baskerville Old Face";
+	font-size: 45px;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+p{
+	text-align: justify;
+	padding: 0px 20px;
+	font-family: "Corbel";
+	font-size: 17px;
+}
+
+p b {
+	font-weight: bold;
+}
+
+.fa{
+	color:purple;
+}
